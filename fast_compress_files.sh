@@ -41,6 +41,7 @@ find "$1" -type f '(' -iname '*.adj'		\
 				-o -iname 'SAindex' 		\
 				-o -iname '*.sam'  			\
 				-o -iname '*.seq' 			\
+				-o -iname '*.tab' 			\
 				-o -iname '*.tsv' 	 		\
 				-o -iname '*.txt' 	 		\
 				-o -iname '*.xls' 	 		\
